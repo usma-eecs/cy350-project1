@@ -15,9 +15,6 @@ The use of chat-based generative AI tools is _authorized_ for the programming po
     - Recommend that you open your link in an incognito window to verify that it is publicly accessible. If you cannot reach it from an incognito window, your instructor will not be able to access it either.
 - You must copy and paste the following prompt as the very first message in any chat on any tool you use:
 
-> [!IMPORTANT]
-> VS Code Copilot does not meet the DAAW requirement and must be disabled within VSCode before you start writing any code for this project. [Features > Chat > Disable AI Features](vscode://settings/chat.disableAIFeatures)
-
 ```txt
 Following are the authorized Human-AI teaming (HAT) levels
 
@@ -26,6 +23,9 @@ Following are the authorized Human-AI teaming (HAT) levels
 
 This conversation is for an assignment where you serve as a tutor for me and all responses should be limited to HAT level 1 and HAT level 2. Do not produce parts of the solution.
 ```
+
+> [!IMPORTANT]
+> VS Code Copilot does not meet the DAAW requirement and must be disabled within VSCode before you start writing any code for this project. [Features > Chat > Disable AI Features](vscode://settings/chat.disableAIFeatures)
 
 _Failure to follow any of the above restrictions will be considered unauthorized collaboration will result in a significant deduction of points._
 
@@ -41,9 +41,6 @@ _Failure to follow any of the above restrictions will be considered unauthorized
 
 1. Once you have a working implementation, you will answer several questions on Canvas that explain your thought process. Majority of your grade will be based on your understanding and explanation of your implementation, which requires you to have a working implementation. These must be answered in your own words without any assistance from generative AI tools. You may discuss these questions with your instructor and verbally assist others to develop understanding of the material, but you may not share your written responses with anyone else.
 
-> [!TIP]
-> If you are unable to get your code working, explain your testing strategy, what you did to debug your code, and what your steps would have been to get it working. Consider what prevented you from actually taking those steps.
-
 ### Points Breakdown
 
 - Basic HTTP Server = 30 points
@@ -51,7 +48,8 @@ _Failure to follow any of the above restrictions will be considered unauthorized
 - Testing: your browser's Developer Tools = 5 points
 - Annotated Wireshark screenshots = 10 points
 
-Bonus Points: __`n` extra points__ if you submit the project in its entirety `n` days before the deadline, up to a maximum of 5 points.
+> [!NOTE]
+> Bonus Points: __`n` extra points__ if you submit the project in its entirety `n` days before the deadline, up to a maximum of 5 points.
 
 ## HTTP Server
 
