@@ -43,10 +43,9 @@ _Failure to follow any of the above restrictions will be considered unauthorized
 
 ### Points Breakdown
 
-- Basic HTTP Server = 30 points
-- Testing: curl = 5 points
-- Testing: your browser's Developer Tools = 5 points
-- Annotated Wireshark screenshots = 10 points
+- Develop the HTTP Server = 30 points
+- Testing = 10 points
+- Explanation of your work = 10 points
 
 > [!NOTE]
 > Bonus Points: __`n` extra points__ if you submit the project in its entirety `n` days before the deadline, up to a maximum of 5 points.
@@ -96,7 +95,7 @@ curl -v localhost:8090/missing
     - response status code, headers, body
 
 > [!IMPORTANT]
-From your browser, you must capture at least one [200 OK](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/200) response and one cached [304 Not Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/304) response. To skip the cache and force a 200 OK response, either use the "Disable Cache" checkbox in your browser network monitor, or press `Ctrl-Shift-R` to hard reload. If your server returned the [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/If-None-Match) correctly, your browser will display the [304 Not Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/304) response the second time you load the page.
+From your browser, you must capture at least one [200 OK](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/200) response and one cached [304 Not Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/304) response. To skip the cache and force a [200 OK](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/200) response, either use the "Disable Cache" checkbox in your browser network monitor, or press `Ctrl-Shift-R` to hard reload. If your server returned the [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/If-None-Match) correctly, your browser will display the [304 Not Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/304) response the second time you load the page.
 
 ### Hints
 
