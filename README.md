@@ -24,10 +24,16 @@ Following are the authorized Human-AI teaming (HAT) levels
 This conversation is for an assignment where you serve as a tutor for me and all responses should be limited to HAT level 1 and HAT level 2. Do not produce parts of the solution.
 ```
 
-> [!IMPORTANT]
-> VS Code Copilot does not meet the DAAW requirement and must be disabled within VSCode before you start writing any code for this project. [Features > Chat > Disable AI Features](vscode://settings/chat.disableAIFeatures)
+You can also provide your GenAI tool a direct link to this repository, which will allow it to read the project instructions and provide you with better guidance. Consider adding the following to your first message.
 
-_Failure to follow any of the above restrictions will be considered unauthorized collaboration will result in a significant deduction of points._
+```txt
+Retrieve project instructions from https://github.com/usma-eecs/cy350-project1 and inform me when ready to discuss.
+```
+
+> [!IMPORTANT]
+VS Code Copilot does not meet the DAAW requirement and must be disabled within VSCode before you start writing any code for this project. [Features > Chat > Disable AI Features](vscode://settings/chat.disableAIFeatures)
+
+_Failure to follow any of the above restrictions will be considered unauthorized collaboration and will result in a significant deduction of points._
 
 ### Learning Objectives
 
@@ -39,7 +45,7 @@ _Failure to follow any of the above restrictions will be considered unauthorized
 
 1. You will submit your code to Gradescope. Autograder will give you feedback on the correctness of your implementation.
 
-1. Once you have a working implementation, you will answer several questions on Canvas that explain your thought process. Majority of your grade will be based on your understanding and explanation of your implementation, which requires you to have a working implementation. These must be answered in your own words without any assistance from generative AI tools. You may discuss these questions with your instructor and verbally assist others to develop understanding of the material, but you may not share your written responses with anyone else.
+1. Once you have a working implementation, you will answer several questions in the "report" assignment that explain your thought process. Majority of your grade will be based on your understanding and explanation of your implementation, which requires you to have a working implementation. These must be answered in your own words without any assistance from generative AI tools. You may discuss these questions with your instructor and verbally assist others to develop understanding of the material, but you may not share your written responses with anyone else.
 
 ### Points Breakdown
 
@@ -48,7 +54,7 @@ _Failure to follow any of the above restrictions will be considered unauthorized
 - Explanation of your work = 10 points
 
 > [!NOTE]
-> Bonus Points: __`n` extra points__ if you submit the project in its entirety `n` days before the deadline, up to a maximum of 5 points.
+Bonus Points: __`n` extra points__ if you submit the project in its entirety `n` days before the deadline, where `n <= 5`.
 
 ## HTTP Server
 
