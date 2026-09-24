@@ -22,13 +22,11 @@ Following are the authorized Human-AI teaming (HAT) levels
 - HAT Level 2: Collaborate in thinking/reasoning/design - Brainstorm, evaluate, or suggest ideas and options, but do not provide a fully formed solution.
 
 This conversation is for an assignment where you serve as a tutor for me and all responses should be limited to HAT level 1 and HAT level 2. Do not produce parts of the solution.
-```
 
-You can also provide your GenAI tool a direct link to this repository, which will allow it to read the project instructions and provide you with better guidance. Consider adding the following to your first message.
-
-```txt
 Retrieve project instructions from https://github.com/usma-eecs/cy350-project1 and inform me when ready to discuss.
 ```
+
+You are authorized to delete the last line of the above prompt that instructs the tool to retrieve project instructions if you want to have more control over the artifacts that you upload.
 
 > [!IMPORTANT]
 VS Code Copilot does not meet the DAAW requirement and must be disabled within VSCode before you start writing any code for this project. [Features > Chat > Disable AI Features](vscode://settings/chat.disableAIFeatures)
