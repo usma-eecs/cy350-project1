@@ -73,6 +73,14 @@ This project introduces you to the client-server programming paradigm and the ba
 - Handle GET requests. Parse the [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/If-None-Match) header and conditionally return [304 Not Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/304) if the content cache entry is valid.
 - Generate appropriate HTTP responses with correct status codes, headers, and body content.
 
+### Running the server
+
+```sh
+uv run http_server.py
+```
+
+You can use `python3` or `python` to run the program but it will cause a lot of friction in upcoming assignments, so stick with `uv`. Do _not_ use the _run_ button in VS Code. Just type the command in a terminal. Make sure you are in the correct directory by using `ls`, `pwd`, `cd` etc. If still unsure, refer to lab 1 and lab 2.
+
 ### Testing
 
 You must test your program yourself. Gradescope will only test certain cases. You will be graded on how thoroughly you test your work. Provide screenshots as evidence of your work.
